@@ -1,0 +1,5 @@
+Flask>=2.2.0
+Werkzeug>=2.2.0
+scapy>=2.4.5
+six>=1.15.0
+
