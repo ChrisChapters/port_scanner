@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cybersecurity Tool</title>
+    <title>Port Scanner</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Cybersecurity Tool</h1>
+        <h1>Port Scanner Tool</h1>
         <form action="{{ url_for('main.index') }}" method="post"> <!-- Make sure to use the correct endpoint for form submission -->
             <label for="ip_address">Enter IP Address:</label>
             <input type="text" id="ip_address" name="ip_address" required>
