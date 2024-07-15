@@ -11,7 +11,7 @@ def scan(ip):
         resp = sr1(pkt, timeout=1, verbose=0)
         
         if resp:
-            if resp.haslayer(TCP) and resp.getlayer(TCP).flags == 0x12:  # SYN-ACK
+            if resp.haslayer(TCP) and resp.getlayer(TCP).flags == 0x12:
                 results.append((port, 'open'))
             else:
                 results.append((port, 'closed'))
