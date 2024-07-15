@@ -1,4 +1,8 @@
-This is a simple web app for port scanning. You can use this tool to find the open ports of an IP address. To find the IP address of a website, use nslookup, for example: nslookup 'site_name'.
+This is a simple web app for port scanner.
+
+You can use this tool to find the open ports of an IP address. 
+
+To find the IP address of a website, use nslookup, for example: nslookup 'site_name'.
 
 here is the installation steps,
 
