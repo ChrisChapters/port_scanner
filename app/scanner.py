@@ -3,7 +3,7 @@ from six.moves import range
 
 
 def scan(ip):
-    ports = [443, 80, 22]  
+    ports = [443, 80, 22, 587, 3389, 500, 179, 123, 53]  
     results = []
     
     for port in ports:
